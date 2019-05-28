@@ -9,3 +9,35 @@
 @import '~@ionic/angular/css/text-alignment.css';
 @import '~@ionic/angular/css/text-transformation.css';
 @import '~@ionic/angular/css/flex-utils.css';
+
+.picker-wrapper {
+  height: 100vh!important;
+  //background: yellow!important;
+  background-image: linear-gradient(gray, black, gray)!important;
+  opacity: 0.5%!important;
+}
+
+.picker-columns {
+  height: 100vh!important;
+}
+
+.picker-col {
+  padding-top: 30vh;
+  height: 100vh!important;
+}
+.picker-toolbar {
+  position: absolute;
+  top: 80vh;
+  width: 100px!important;
+  left: 60vw;
+}
+.picker-button {
+  background: white!important;
+}
+.picker-opt {
+  color:grey;
+}
+.picker-opt-selected {
+  background: white!important;
+  border-radius: 20px;
+}
